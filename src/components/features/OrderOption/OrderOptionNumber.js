@@ -16,7 +16,7 @@ const OrderOptionNumber = ({
         onChange={event => setOptionValue(event.currentTarget.value)}
         min={min}
         max={max}
-      />{' '}
+      />
     </div>
   );
 };
