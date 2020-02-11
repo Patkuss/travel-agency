@@ -47,9 +47,8 @@
 
 .contact {
   text-align: right;
-  span {
-    padding-left: $base-size;
-  }
+  align-content: center;
+  display: flex;
 }
 
 @media (max-width: 767px) {
